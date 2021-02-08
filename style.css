@@ -112,17 +112,18 @@ body{
     height: 3rem;
 }
 
-.apple-download{
+.apple-download, .gplay-download{
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    border-radius: 8px;
+}
+
+.apple-download{
     background-image: url("img/apple.png");
 }
 
 .gplay-download{
-    height: 3rem;
-    width: 10rem;
-    background-size: cover;
     background-image: url("img/GPlay.png");
 }
 
